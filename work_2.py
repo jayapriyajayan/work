@@ -15,11 +15,11 @@ students={
     "Amal":95
 }
 
-# highestmark=0
-# for i in students:
-#     if highestmark[i]>students:
-#         students=highestmark[i]
-# print(highestmark)        
+highestmark=students["Anu"]
+for i in students.values():
+    if i>highestmark:
+        highestmark=i
+print("high",highestmark)        
 
 
 #3.common ayit ulla numbers kandu pidiakan..
